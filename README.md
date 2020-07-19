@@ -3,7 +3,7 @@
     <img alt="GoFinances" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1594342618/logo_gofinaces.png" width="250px" />
 </h1>
 
-<p align="center">🚀 Uma aplicação para realização de transações.</p>
+<p align="center">🚀 Uma aplicação para realização de transações finaceiras.</p>
 
 <h1 align="center">
 
