@@ -13,6 +13,10 @@
  
 </h1>
 
+<h4 align="center"> 
+	🚧  GoFinances 🚀 Concluído  🚧
+</h4>
+
 <p align="center">
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -22,9 +26,25 @@
   <a href="#iphone-iniciando-mobile">React Native</a>
 </p>
 
-<h1 align="center">
-    <img alt="GoFinances" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1594342658/gofinaces.gif" widht="100px"/>
-</h1>
+## 💻 Sobre o projeto
+
+:dollar:  GoFinaces - é uma aplicação que permite ao usuário realizar diversas transaçõe as quais podem ser feitas importando um simples arquivo CSV.
+
+
+Projeto desenvolvido durante um desafio proposto na jornada GoStack 12, curso produzido pela [Rocketseat](https://blog.rocketseat.com.br).
+
+O intuito de seu desenvolvimento é praticar os conhecimentos sobre [Node.JS](https://nodejs.org/en/), [React.JS](https://reactnative.dev/) entre outras tecnologias como o [Typescript](https://www.typescriptlang.org/) adiquiridos durante a jornada.  
+
+---
+
+## 🎨 Layout
+
+
+<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
+  <img alt="GoFinances" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1594342658/gofinaces.gif">
+</a>
+
+
 
 ## :page_with_curl: Sobre
 Loading...
