@@ -44,7 +44,41 @@ O intuito de seu desenvolvimento é praticar os conhecimentos sobre [Node.JS](ht
   <img alt="GoFinances" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1594342658/gofinaces.gif">
 </a>
 
+## 🚀 Como executar o projeto
 
+Este projeto é divido em duas partes:
+1. Backend (pasta backend) 
+2. Frontend (pasta frontend)
+
+💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+#### 🎲 Rodando o Backend (servidor)
+
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:tgmarinho/README-ecoleta.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd README-ecoleta
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
 
 ## :page_with_curl: Sobre
 Loading...
