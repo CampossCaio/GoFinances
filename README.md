@@ -3,6 +3,16 @@
     <img alt="GoFinances" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1594342618/logo_gofinaces.png" width="250px" />
 </h1>
 
+<p align="center">🚀 Uma aplicação para realização de transações.</p>
+
+<h1 align="center">
+
+ ![align="center"](https://img.shields.io/github/issues/CampossCaio/GoMarketplace?color=%23e83f5b)
+ ![Badge](https://img.shields.io/github/forks/CampossCaio/GoMarketplace?color=%23e83f5b)
+ ![Badge](https://img.shields.io/github/stars/CampossCaio/GoMarketplace?color=%23e83f5b) 
+ 
+</h1>
+
 <p align="center">
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
