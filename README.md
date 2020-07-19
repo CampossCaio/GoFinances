@@ -57,6 +57,7 @@ Este projeto é divido em duas partes:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Ter um banco de dados sql, de preferência postgres.
 
 
 #### 🎲 Rodando o Backend (servidor)
@@ -64,72 +65,95 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone https://github.com/CampossCaio/GoFinances.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd README-ecoleta
+$ cd GoFinances
 
 # Vá para a pasta server
-$ cd server
+$ cd backend
 
 # Instale as dependências
 $ npm install
+
+# Execute o comando abaixo para executar as migrations
+$ npx typeorm migration:run
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev:server
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 
 
-## :page_with_curl: Sobre
-Loading...
-
-**Node.js**: é uma API REST que faz todo o CRUD da aplicação, persistência de dados e realiza as tratativa de exceções.
-
-**ReactJS**: é uma página Web na qual os usuários podem realizar transações.
-
-**React Native**: loading....
-
-## :books: Requisitos
-- Ter [**Git**](https://git-scm.com/) para clonar o projeto.
-- Ter [**Node.js**](https://nodejs.org/en/) instalado.
-- Ter um banco de dados sql, de preferência postgres.
-## :rocket: Começando
-``` bash
-  # Clonar o projeto:
-  $ git clone https://github.com/CampossCaio/GoFinances
-
-  # Entrar no diretório:
-  $ cd GoFinances
 ```
 
-## :gear: Iniciando back-end
+---
+
+#### 🧭 Rodando a aplicação web (Frontend)
+
 ```bash
-  # Entrar no diretório do back-end:
-  $ cd backend
 
-  # Instalar as dependências:
-  $ yarn
+# Clone este repositório
+$ git clone https://github.com/CampossCaio/GoFinances.git
 
-  # Rodar as migrations:
-  $ yarn typeorm migration:run
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd GoFinances
 
-  # Rodar a aplicação:
-  $ yarn dev:server
+# Vá para a pasta da aplicação Front End
+$ cd frontend
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
 ```
 
-## :computer: Iniciando front-end
-```bash
-  # Entrar no diretório do front-end:
-  $ cd web
+---
 
-  # Instalar as dependências:
-  $ yarn
+## 🛠 Tecnologias
 
-  # Rodar a aplicação:
-  $ yarn start
-```
+As seguintes ferramentas foram usadas na construção do projeto:
 
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+
+
+
+#### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[Postgres](https://www.postgresql.org/)**
+-   **[ts-node](https://github.com/TypeStrong/ts-node)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+-   **[Multer](https://github.com/expressjs/multer)**
+-   **[Celebrate](https://github.com/arb/celebrate)**
+-   **[Joi](https://github.com/hapijs/joi)**
+
+
+
+## 🦸 Autor
+
+<a href="https://github.com/CampossCaio">
+ <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/52550525?s=400&u=c8dfc4e1c8ef1bf3ed5890ecc40ee98f086ca72b&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Caio Campos</b></sub></a> <a href="https://github.com/CampossCaio" title="Caio Campos">🚀</a>
+ <br />
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito com ❤️ por **Caio Campos** 👋🏻 [Get in touch!](https://github.com/CampossCaio)
+
 
 
