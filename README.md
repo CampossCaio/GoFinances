@@ -7,9 +7,9 @@
 
 <h1 align="center">
 
- ![align="center"](https://img.shields.io/github/issues/CampossCaio/GoMarketplace?color=%23e83f5b)
- ![Badge](https://img.shields.io/github/forks/CampossCaio/GoMarketplace?color=%23e83f5b)
- ![Badge](https://img.shields.io/github/stars/CampossCaio/GoMarketplace?color=%23e83f5b) 
+ ![align="center"](https://img.shields.io/github/issues/CampossCaio/GoMarketplace?color=%235636d3)
+ ![Badge](https://img.shields.io/github/forks/CampossCaio/GoMarketplace?color=%235636d3)
+ ![Badge](https://img.shields.io/github/stars/CampossCaio/GoMarketplace?color=%235636d3) 
  
 </h1>
 
